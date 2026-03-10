@@ -1,0 +1,11 @@
+<properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <property id="SobrietyYear"   type="number">0</property>
+    <property id="SobrietyMonth"  type="number">0</property>
+    <property id="SobrietyDay"    type="number">0</property>
+    <property id="SobrietyHour"   type="number">0</property>
+    <!-- 1 = tylko liczba, 2 = liczba + "days" -->
+    <property id="DisplayFormat"  type="number">2</property>
+
+</properties>

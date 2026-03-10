@@ -1,0 +1,23 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <setting propertyKey="@Properties.SobrietyYear"  title="Sobriety Start Year">
+        <settingConfig type="numeric" min="2000" max="2035"/>
+    </setting>
+    <setting propertyKey="@Properties.SobrietyMonth" title="Sobriety Start Month (1-12)">
+        <settingConfig type="numeric" min="1" max="12"/>
+    </setting>
+    <setting propertyKey="@Properties.SobrietyDay"   title="Sobriety Start Day (1-31)">
+        <settingConfig type="numeric" min="1" max="31"/>
+    </setting>
+    <setting propertyKey="@Properties.SobrietyHour"  title="Sobriety Start Hour (0-23)">
+        <settingConfig type="numeric" min="0" max="23"/>
+    </setting>
+    <setting propertyKey="@Properties.DisplayFormat" title="Display Format">
+        <settingConfig type="list">
+            <listEntry value="1">Number only (365)</listEntry>
+            <listEntry value="2">Number + days (365 days)</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>
