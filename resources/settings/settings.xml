@@ -2,7 +2,7 @@
     xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 
     <setting propertyKey="@Properties.SobrietyYear"  title="Sobriety Start Year">
-        <settingConfig type="numeric" min="2000" max="2035"/>
+        <settingConfig type="numeric" min="1970" max="2050"/>
     </setting>
     <setting propertyKey="@Properties.SobrietyMonth" title="Sobriety Start Month (1-12)">
         <settingConfig type="numeric" min="1" max="12"/>
